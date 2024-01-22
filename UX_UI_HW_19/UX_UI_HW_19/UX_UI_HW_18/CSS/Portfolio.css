@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../Fonts/Gilroy-FREE/Gilroy-ExtraBold.otf") format('woff2'), 
+       url("../Fonts/Gilroy-FREE/Gilroy-Light.otf") format('woff'); 
+  font-weight: normal; 
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Baskerville';
+  src: url("../Fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf") format('woff2'), 
+       url("../Fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf") format('woff');
+  font-weight: normal; 
+  font-style: normal; 
+}
+    
+    .header, .footer {
+      background-color: whitesmoke;
+      color: white;
+      text-align: center;
+     width: 100%;
+    }
+    .navbar {
+      width:100%;
+      background-color: #D0E118;
+    }
+    .nav {
+      display:flex;
+      height:30px;
+      width:100%;
+      background-color: #D0E118;
+      opacity:70%;
+      color: #fff;
+      text-align: center;
+    }
+    .left {
+      width:75%;
+      text-align:left;
+    }
+    .right {
+      width:25%;
+      float:right;
+      text-align: right;
+    }
+    .container{
+      display:flex;
+      justify-content: flex-start;
+      align-items: left;
+      border-radius: 30%;
+    }
+    .rounded-image{
+border-radius: 2 px 16px;
+      padding: 5px;
+     
+    }
+    .hero {
+      background-image: url("../images/hero\ imsgr.png");
+      background-size: cover;
+      background-position:center;
+      height: 500px;
+      color: black;
+      text-align:center;
+      padding: 50px;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      font-family: 'gilroy', sans-serif;
+      margin-bottom: 10px;
+    }
+    .sectionhead{
+      font-size: 1.5em;
+      font-family: 'gilroy';
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .card-deck{
+      display:flex;
+      justify-content: space-around;
+    }
+    .card {
+      width: 450px;
+      height: 450px;
+      border:2px solid #D0E118;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    .accordion {
+      display: flex;
+      flex-direction: column;
+      width:100%;
+    }
+    .accordion-tab {
+      background-color: #e1186c;
+      padding: 10px;
+      cursor: pointer;
+      border: 1px solid #D0E118;
+    }
+    .accordion-tab:hover{
+      background-color: #D0E118;
+    }
+    .accordion-content {
+      padding: 10px;
+      border-top: 1px solid #ccc;
+      display:none;
+    }
+    
+.active {
+  display:block;
+}
+
+    .myskills{
+      font-size: 1.5em;
+      font-family: 'gilroy';
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .flexContainer {
+      display:flex;
+      width: 33%;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
